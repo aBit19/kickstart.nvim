@@ -203,6 +203,8 @@ vim.keymap.set('n', '§', '``<Esc>ha', { desc = 'Complement in backtick in ipad.
 vim.keymap.set('v', '±', '~', { desc = 'Complement in ipad.' })
 vim.keymap.set('v', '§', '``<Esc>ha', { desc = 'Complement in backtick in ipad.' })
 
+vim.keymap.set('n', '<leader>x', 'xp', { desc = 'Fix type' })
+
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 
