@@ -203,7 +203,7 @@ vim.keymap.set('n', '§', '``<Esc>ha', { desc = 'Complement in backtick in ipad.
 vim.keymap.set('v', '±', '~', { desc = 'Complement in ipad.' })
 vim.keymap.set('v', '§', '``<Esc>ha', { desc = 'Complement in backtick in ipad.' })
 
-vim.keymap.set('n', '<leader>x', 'xp', { desc = 'Fix type' })
+vim.keymap.set('n', '<leader>x', 'xpA', { desc = 'Fix typo' })
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
@@ -707,7 +707,7 @@ require('lazy').setup({
       --        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
       local servers = {
         clangd = {},
-        -- gopls = {},
+        gopls = {},
         -- pyright = {},
         markdown_oxide = {},
         rust_analyzer = {},
